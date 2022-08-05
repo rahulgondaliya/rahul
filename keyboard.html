@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyboard</title>
+    <link rel="stylesheet" href="keyboard.css">
+</head>
+<body>
+    <div id="container" >
+        <textarea id="addText" rows="6" cols="60" ></textarea>
+        <ul id="keyboard">
+
+            <li class="symbol" onclick="addText('`','~')"><span class="off">`</span><span class="on">~</span></li>
+            <li class="symbol" onclick="addText('1','!')"><span class="off">1</span><span class="on">!</span></li>
+            <li class="symbol" onclick="addText('2','@')"><span class="off">2</span><span class="on">@</span></li>
+            <li class="symbol" onclick="addText('3','#')"><span class="off">3</span><span class="on">#</span></li>
+            <li class="symbol" onclick="addText('4','$')"><span class="off">4</span><span class="on">$</span></li>   
+            <li class="symbol" onclick="addText('5','%')"><span class="off">5</span><span class="on">%</span></li>
+            <li class="symbol" onclick="addText('6','^')"><span class="off">6</span><span class="on">^</span></li>
+            <li class="symbol" onclick="addText('7','&')"><span class="off">7</span><span class="on">&</span></li>
+            <li class="symbol" onclick="addText('8','*')"><span class="off">8</span><span class="on">*</span></li>
+            <li class="symbol" onclick="addText('9','(')"><span class="off">9</span><span class="on">(</span></li>
+            <li class="symbol" onclick="addText('0',')')"><span class="off">0</span><span class="on">)</span></li>
+            <li class="symbol" onclick="addText('-','_')"><span class="off">-</span><span class="on">_</span></li>
+            <li class="symbol" onclick="addText('=','+')"><span class="off">=</span><span class="on">+</span></li>
+            <li class="backspace lastitem" onclick="addText('BackSpace')">backspace</li>
+            <li class="tab" onclick="addText('tab')">tab</li>
+            <li class="letter" onclick="addText('Q')">q</li>
+            <li class="letter" onclick="addText('W')">w</li>
+            <li class="letter" onclick="addText('E')">e</li>
+            <li class="letter" onclick="addText('R')">r</li>
+            <li class="letter" onclick="addText('T')">t</li>
+            <li class="letter" onclick="addText('Y')">y</li>
+            <li class="letter" onclick="addText('U')">u</li>
+            <li class="letter" onclick="addText('I')">i</li>
+            <li class="letter" onclick="addText('O')">o</li>
+            <li class="letter" onclick="addText('P')">p</li>
+            <li class="symbol" onclick="addText('[','{')"><span class="off">[</span><span class="on">{</span></li>
+            <li class="symbol" onclick="addText(']','}')"><span class="off">]</span><span class="on">}</span></li>
+            <li class="symbol lastitem" onclick="addText('\','|'')"><span class="off">\</span><span class="on">|</span></li>
+            <li class="capslock" onclick="addText('capslock')">capslock</li>
+            <li class="letter" onclick="addText('A')">a</li>
+            <li class="letter" onclick="addText('S')">s</li>
+            <li class="letter" onclick="addText('D')">d</li>
+            <li class="letter" onclick="addText('F')">f</li>
+            <li class="letter" onclick="addText('G')">g</li>
+            <li class="letter" onclick="addText('H')">h</li>
+            <li class="letter" onclick="addText('J')">j</li>
+            <li class="letter" onclick="addText('K')">k</li>
+            <li class="letter" onclick="addText('L')">l</li>
+            <li class="symbol" onclick="addText(';',':')"><span class="off">;</span><span class="on">:</span></li>
+            <li class="symbol" onclick="addText('',)"><span class="off">'</span><span class="on">"</span></li>
+            <li class="enter lastitem" onclick="addText('enter')">enter</li>
+            <li class="left-shift" onclick="addText('shift')">shift</li>
+            <li class="letter" onclick="addText('Z')">z</li>
+            <li class="letter" onclick="addText('X')">x</li>
+            <li class="letter" onclick="addText('C')">c</li>
+            <li class="letter" onclick="addText('V')">v</li>
+            <li class="letter" onclick="addText('B')">b</li>
+            <li class="letter" onclick="addText('N')">n</li>
+            <li class="letter" onclick="addText('M')">m</li>
+            <li class="symbol" onclick="addText(',','<')"><span class="off">,</span><span class="on"><</span></li>
+            <li class="symbol" onclick="addText('.','>')"><span class="off">.</span><span class="on">></span></li>
+            <li class="symbol" onclick="addText('/','?')"><span class="off">/</span><span class="on">?</span></li>
+            <li class="right-shift lastitem" onclick="addText('shift')">shift</li>
+            
+            <li class="space" onclick="addText('space')">space</li>
+           
+            <script src="keyboard.js"></script>
+
+
+            
+            
+
+
+        </ul>
+    </div>
+    
+</body>
+</html>
